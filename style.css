@@ -1,82 +1,82 @@
-{
-        font-family: 'Poppins', sans-serif;
-    }
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
-    h1 {
-        font-size: 55px;
-        font-weight: 700;
-        color: #575757;
-    }
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #575757;
+}
 
-    p {
-        font-size: 20px;
-        margin-bottom: 30px;
-        color: #828282;
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #828282;
 
-    }
+}
 
-    .button {
-        background-image: linear-gradient(120deg, #FBA24F 50%, #FF1E1E 100%);
-        padding: 17px 35px;
-        border: none;
-        border-radius: 25px;
-        box-shadow: 0px 2px 30px 0px #FC8F4980;
-        color: white;
-        font-weight: 600;
-        font-size: 15px;
-        transition-duration: 400ms;
-        text-decoration: none;
-    }
+.button {
+    background-image: linear-gradient(120deg, #FBA24F 50%, #FF1E1E 100%);
+    padding: 17px 35px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 2px 30px 0px #FC8F4980;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transition-duration: 400ms;
+    text-decoration: none;
+}
 
-    .color-orange {
-        color: orange;
-    }
+.color-orange {
+    color: orange;
+}
 
-    section {
-        display: flex;
-    }
+section {
+    display: flex;
+}
 
-    .half-width {
-        width: 50%;
-        padding: 5%;
-    }
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
 
 
-    .image {
-        height: 550px;
-    }
+.image {
+    height: 550px;
+}
 
-    .img1 {
-        margin-left: auto;
+.img1 {
+    margin-left: auto;
 
-        width: 100%;
-    }
+    width: 100%;
+}
 
-    .about-banner {
-        background-image: url(images/Frame\ 58.jpg);
-        background-image: cover;
-    }
+.about-banner {
+    background-image: url(images/Frame\ 58.jpg);
+    background-image: cover;
+}
 
-    h2 {
-        font-size: 40px;
-        font-weight: 700;
-    }
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
 
-    .about-me {
-        margin-top: 100px;
-        justify-content: center;
-        padding: 0px 6%;
-    }
+.about-me {
+    margin-top: 100px;
+    justify-content: center;
+    padding: 0px 6%;
+}
 
-    .contact {
-        background-image: linear-gradient(120deg, #FBA24F 50%, #FF1E1E 100%);
-        padding: 17px 35px;
-        border: none;
-        border-radius: 25px;
-        box-shadow: 0px 2px 30px 0px #FC8F4980;
-        color: white;
-        font-weight: 600;
-        font-size: 15px;
-        transition-duration: 400ms;
-        text-decoration: none;
-    }
+.contact {
+    background-image: linear-gradient(120deg, #FBA24F 50%, #FF1E1E 100%);
+    padding: 17px 35px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 2px 30px 0px #FC8F4980;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transition-duration: 400ms;
+    text-decoration: none;
+}
