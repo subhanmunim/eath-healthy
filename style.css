@@ -54,6 +54,7 @@
 
     .about-banner {
         background-image: url(images/Frame\ 58.jpg);
+        background-image: cover;
     }
 
     h2 {
