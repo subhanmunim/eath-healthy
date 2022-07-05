@@ -60,3 +60,22 @@
         font-size: 40px;
         font-weight: 700;
     }
+
+    .about-me {
+        margin-top: 100px;
+        justify-content: center;
+        padding: 0px 6%;
+    }
+
+    .contact {
+        background-image: linear-gradient(120deg, #FBA24F 50%, #FF1E1E 100%);
+        padding: 17px 35px;
+        border: none;
+        border-radius: 25px;
+        box-shadow: 0px 2px 30px 0px #FC8F4980;
+        color: white;
+        font-weight: 600;
+        font-size: 15px;
+        transition-duration: 400ms;
+        text-decoration: none;
+    }
