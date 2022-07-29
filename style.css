@@ -1,60 +1,13 @@
+/* General Section*/
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 60px;
     font-weight: 700;
-    color: #575757;
-}
-
-p {
-    font-size: 20px;
-    margin-bottom: 30px;
-    color: #828282;
-
-}
-
-.button {
-    background-image: linear-gradient(120deg, #FBA24F 50%, #FF1E1E 100%);
-    padding: 17px 35px;
-    border: none;
-    border-radius: 25px;
-    box-shadow: 0px 2px 30px 0px #FC8F4980;
-    color: white;
-    font-weight: 600;
-    font-size: 15px;
-    transition-duration: 400ms;
-    text-decoration: none;
-}
-
-.color-orange {
-    color: orange;
-}
-
-section {
-    display: flex;
-}
-
-.half-width {
-    width: 50%;
-    padding: 5%;
-}
-
-
-.image {
-    height: 550px;
-}
-
-.img1 {
-    margin-left: auto;
-
-    width: 100%;
-}
-
-.about-banner {
-    background-image: url(images/Frame\ 58.jpg);
-    background-image: cover;
 }
 
 h2 {
@@ -62,13 +15,35 @@ h2 {
     font-weight: 700;
 }
 
-.about-me {
-    margin-top: 100px;
-    justify-content: center;
-    padding: 0px 6%;
+h3 {
+    font-size: 23px;
 }
 
-.contact {
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.heading-grey {
+    color: #575757;
+}
+
+.sub-heading-grey {
+    color: #707070;
+}
+
+.text-grey {
+    color: #828282;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #FBA24F 60%, #FF1E1E 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn {
     background-image: linear-gradient(120deg, #FBA24F 50%, #FF1E1E 100%);
     padding: 17px 35px;
     border: none;
@@ -80,3 +55,154 @@ h2 {
     transition-duration: 400ms;
     text-decoration: none;
 }
+
+.btn:hover {
+    background-image: linear-gradient(-120deg, #FBA24F 50%, #FF1E1E 100%);
+    transition-duration: 400ms;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+
+/* Hero Section */
+#hero {
+    display: flex;
+    justify-content: center;
+    padding: 40px 6%;
+}
+
+.half-width {
+    width: 50%;
+    align-self: center;
+
+}
+
+
+#hero-image {
+    display: block;
+    background-image: url(images/shapes/pattern.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-left: auto;
+    width: 80%;
+}
+
+/*Hero Section */
+
+
+
+
+
+/*About Section */
+
+#about {
+    display: flex;
+    justify-content: center;
+    padding: 0px 6%;
+    background-color: #FC8F491A;
+    background-image: url(images/shapes/half-circle.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-image: url(images/shapes/pattern.svg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+
+#about-image {
+    margin-left: auto;
+    width: 100%;
+}
+
+
+/* About Section */
+
+/* My Recipie Section*/
+
+#recipe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 6%;
+}
+
+
+.recipe-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0px 6%;
+
+}
+
+.recipe-item {
+    width: 40%;
+    margin: 3% 2.5%;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.recipe-item img {
+    width: 100%;
+    height: 280px;
+    border-radius: 12px;
+
+}
+
+.body-text {
+    font-size: 19px;
+    text-align: justify;
+}
+
+.text-box {
+    margin: 0% 20%;
+
+}
+
+.count-box {
+    display: flex;
+    margin: 4% 10%;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.count-item {
+    text-align: center;
+    width: 33%;
+    justify-content: center;
+    line-height: 0%;
+}
+
+.count-text {
+    font-size: 17px;
+    color: gray;
+}
+
+/* My Recipie Section */
+
+/* footer */
+
+footer {
+    background-color: black;
+    padding: 3% 0%;
+    text-align: center;
+}
+
+footer h2 {
+    color: grey;
+    line-height: 0%;
+}
+
+footer p {
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+
+/* footer end */
